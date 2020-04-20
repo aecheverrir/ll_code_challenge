@@ -1,3 +1,46 @@
+### To Get Started
+
+#### Pre-requisites
+1. NodeJS installed globally in the system.
+https://nodejs.org/en/download/
+
+2. Latest Chrome browser installed.
+
+3. Latest JDK (required to set up the selenium server)
+
+#### Setup Scripts
+* Clone the repository into a folder
+* Go inside the folder and run following command from terminal/command prompt
+```
+npm install 
+```
+* All the dependencies from package.json and ambient typings would be installed in node_modules folder.
+
+#### Run Scripts
+
+* set up the selenium server 
+
+```
+npm run webdriver-update
+``` 
+
+* Then start your selenium server
+```
+npm run webdriver-start
+```
+
+* This will create an output folder named 'typeScript' and transpile the .ts files to .js.
+```
+npm run build
+```
+
+* Finally, the test command will launch the Chrome Browser and runs the scripts.
+```
+npm test
+```
+
+---
+
 # ll_code_challenge
 
 [Instructions](#instructions)<br />
